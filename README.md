@@ -45,7 +45,17 @@ data_CLMS
 |----|      
 |----|  4.1_CSD *Constrained Spherical Deconvolution for fiber estimation*
 |----|      
-|----etc (other projects)
+|
+|----functional_7T
+|
+|
+|
+|
+|
+|
+|----MP2RAGE_7T
+|
+|----CLMS_OTHER_DATA (for non-image data, e.g. neuropsych tests, freesurfer structural csv files, etc.)
 
 ```
 
