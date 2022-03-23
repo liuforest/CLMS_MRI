@@ -1,16 +1,18 @@
 # diffusion_mri
  
-Analysis pipeline for 3 T Diffusion MRI data. 
+Preprocessing & Analysis pipelines for CLMS MRI Data.
 
 ## Directory Structure
 ```
 data_CLMS
 |
-|----0_raw ()
-|----|  abc_123_m00
-|----|  bcd_234_m00
-|----|  ...
-|----|  xyz_789_m24
+|----0_3T_raw ~ all 3T scans & data
+|----|  various structure/file formats
+|
+|----0_7T_raw ~ ~ all 7T scans & data
+|----|  various structure/file formats
+|
+|----anatomical 
 |
 |----diffusion 
 |----|  1_dcm *(subdirectories containing ordered dicom files)*
@@ -46,7 +48,7 @@ data_CLMS
 |----|  4.1_CSD *Constrained Spherical Deconvolution for fiber estimation*
 |----|      
 |
-|----functional_7T
+|----functional
 |
 |
 |
@@ -55,7 +57,10 @@ data_CLMS
 |
 |----MP2RAGE_7T
 |
-|----CLMS_OTHER_DATA (for non-image data, e.g. neuropsych tests, freesurfer structural csv files, etc.)
+
+
+
+.../OneDrive/CLMS_OTHER_DATA (for non-image data, e.g. neuropsych tests, freesurfer structural csv files, etc.)
 
 ```
 
