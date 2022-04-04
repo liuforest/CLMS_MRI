@@ -2,14 +2,21 @@
  
 Preprocessing & Analysis pipelines for CLMS MRI Data.
 
-## Directory Structure
+## 
+```
+Analysis ~ 
+Preprocessing ~ prep
+Scripts ~ 
+```
+
+## Data Directory Structure
 ```
 data_CLMS
 |
 |----0_3T_raw ~ all 3T scans & data
 |----|  various structure/file formats
 |
-|----0_7T_raw ~ ~ all 7T scans & data
+|----0_7T_raw ~ all 7T scans & data
 |----|  various structure/file formats
 |
 |----anatomical 
