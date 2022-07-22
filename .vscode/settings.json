@@ -1,4 +1,4 @@
 {
-    "editor.scrollbar.verticalScrollbarSize": 55,
+    "editor.scrollbar.verticalScrollbarSize": 25,
     "workbench.editor.titleScrollbarSizing": "large"
 }
